@@ -1,0 +1,23 @@
+{
+    "name": "homework_16",
+    "version": "1.0.0",
+    "description": "Simple cordova application",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "dependencies": {
+        "cordova-android": "^7.0.0",
+        "cordova-plugin-browsersync": "^1.1.0",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}
